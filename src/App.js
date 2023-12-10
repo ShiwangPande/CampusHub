@@ -15,7 +15,7 @@ const App = () => {
       {/* <AuthPage /> */}
       <Routes>
         <Route path="/login" element={<AuthPage />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/dashboard/:role" element={<DashboardPage />} />
         <Route path="/dashboard/student" element={<StudentDashboardPage />} />
         <Route path="/dashboard/admin" element={<UserProfilePage />} />
