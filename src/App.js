@@ -8,9 +8,9 @@ const App = () => {
   return (
     <Router>
       {/* <Attendance /> */}
-      <AuthPage />
+      {/* <AuthPage /> */}
       <Routes>
-        <Route path="/login" component={AuthPage} />
+        <Route path="/login" element={<AuthPage />} />
         {/* Add other routes for different pages */}
       </Routes>
     </Router>
