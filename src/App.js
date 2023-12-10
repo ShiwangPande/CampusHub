@@ -14,7 +14,7 @@ const App = () => {
       {/* <Attendance /> */}
       {/* <AuthPage /> */}
       <Routes>
-        <Route path="/login" element={<AuthPage />} />
+        {/* <Route path="/login" element={<AuthPage />} /> */}
         <Route path="/" exact element={<Home />} />
         <Route path="/dashboard/:role" element={<DashboardPage />} />
         <Route path="/dashboard/student" element={<StudentDashboardPage />} />
